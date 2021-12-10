@@ -1,0 +1,105 @@
+{
+    "data": [
+        {
+            "id": 0,
+            "nombre": "Freezer",
+            "info": "Vino a destruir a los Sayayin y se quedo para proteger tu dinero",
+            "precio": 90,
+            "imagen": "assets/img/FREEZER.png",
+            "materiales": {
+                "cuerpo": "Barro",
+                "pintura": "",
+                "adornos": ["", ""]
+            }
+        },
+        {
+            "id": 1,
+            "nombre": "Deadpool",
+            "info": "",
+            "precio": 90,
+            "imagen": "assets/img/DEADPOOL.png",
+            "materiales": {
+                "cuerpo": "Barro",
+                "pintura": "",
+                "adornos": ["", ""]
+            }
+        },
+        {
+            "id": 2,
+            "nombre": "Campanita",
+            "info": "Con polvos magicos para multiplicar lo que ahorras",
+            "precio": 90,
+            "imagen": "assets/img/CAMPANITA.png",
+            "materiales": {
+                "cuerpo": "Barro",
+                "pintura": "",
+                "adornos": ["", ""]
+            }
+        },
+        {
+            "id": 3,
+            "nombre": "Borregazo",
+            "info": "Este amigo trae toda la lana",
+            "precio": 90,
+            "imagen": "assets/img/BORREGAZO.png",
+            "materiales": {
+                "cuerpo": "Barro",
+                "pintura": "",
+                "adornos": ["", ""]
+            }
+        },
+        {
+            "id": 4,
+            "nombre": "Frida Khalo",
+            "info": "",
+            "precio": 90,
+            "imagen": "assets/img/FRIDA.png",
+            "materiales": {
+                "cuerpo": "Barro",
+                "pintura": "",
+                "adornos": ["", ""]
+            }
+        },
+        {
+            "id": 5,
+            "nombre": "Among Us",
+            "info": "Debes de tener cuidado con el impostor",
+            "precio": 90,
+            "imagen": "assets/img/AMONG US.png",
+            "materiales": {
+                "cuerpo": "Barro",
+                "pintura": "",
+                "adornos": ["", ""]
+            }
+        },
+        {
+            "id": 6,
+            "nombre": "Flores",
+            "info": "Sencillo pero hermoso",
+            "precio": 90,
+            "imagen": "assets/img/FLOREADO.png",
+            "materiales": {
+                "cuerpo": "Barro",
+                "pintura": "",
+                "adornos": ["", ""]
+            }
+        },
+        {
+            "id": 7,
+            "nombre": "Lic. Gatel",
+            "info": "Todas las mañanas recordandote como esta la situación",
+            "precio": 90,
+            "imagen": "assets/img/GATEL.png",
+            "materiales": {
+                "cuerpo": "Barro",
+                "pintura": "",
+                "adornos": ["", ""]
+            }
+        }
+    ],
+    "info": {
+        "count": 8,
+        "next": null,
+        "preview": null
+    }
+}
