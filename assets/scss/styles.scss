@@ -100,7 +100,7 @@ html {
     @include flexAlignCenter();
     flex-direction: column;
     width: 100%;
-    background: var(--titlesColor);
+    background: #ccc;
     color: var(--textContrast);
 }
 //*MENU CONTAINER
@@ -261,7 +261,7 @@ html {
 
 //!NAV
 .nav {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 0;
     @include flexCenterCenter();
@@ -343,9 +343,7 @@ html {
 }
 //! **************************************************//
 //! PAGE CONTENT
-.page_content {
-    margin-bottom: 6rem;
-}
+
 //*TTITLE SECTION
 .title_section {
     @include flexCenterCenter();

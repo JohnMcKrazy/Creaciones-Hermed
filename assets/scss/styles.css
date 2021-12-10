@@ -117,7 +117,7 @@ html body INPUT {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  background: var(--titlesColor);
+  background: #ccc;
   color: var(--textContrast);
 }
 
@@ -339,7 +339,7 @@ html body INPUT {
 }
 
 .nav {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   display: -webkit-box;
@@ -468,10 +468,6 @@ html body INPUT {
 .nav #nav_content #menu_page_content .menu_items_list .btn_item_menu:hover {
   color: var(--primaryColor);
   background-color: var(--secundaryColor);
-}
-
-.page_content {
-  margin-bottom: 6rem;
 }
 
 .title_section {
