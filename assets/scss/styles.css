@@ -420,16 +420,9 @@ html body INPUT {
   transition: border 0.3s ease;
 }
 
-.nav #nav_content .btn_menu_container .chancho_icon .cls-1 {
-  fill: var(--blackOff);
-}
-
-.nav #nav_content .btn_menu_container .chancho_icon .cls-2 {
-  fill: var(--secundaryColor);
-}
-
-.nav #nav_content .btn_menu_container .chancho_icon .cls-3 {
-  fill: var(--blackOff);
+.nav #nav_content .btn_menu_container i {
+  font-size: 2rem;
+  color: var(--text);
 }
 
 .nav #nav_content .btn_menu_container:hover {

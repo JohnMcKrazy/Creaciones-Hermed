@@ -299,18 +299,9 @@ html {
             padding: 1rem;
             cursor: pointer;
             transition: border 0.3s ease;
-            //*CHANCHO
-            .chancho_icon {
-                //*NOUSE//
-                .cls-1 {
-                    fill: var(--blackOff);
-                }
-                .cls-2 {
-                    fill: var(--secundaryColor);
-                }
-                .cls-3 {
-                    fill: var(--blackOff);
-                }
+            i {
+                font-size: 2rem;
+                color: var(--text);
             }
             //* ****************************************************//
         }
