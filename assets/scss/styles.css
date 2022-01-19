@@ -339,7 +339,7 @@ html body INPUT {
 }
 
 .nav {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   display: -webkit-box;
@@ -355,6 +355,8 @@ html body INPUT {
   height: 6rem;
   background: var(--bg-content);
   z-index: 100;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 
 .nav #nav_content {

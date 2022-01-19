@@ -13,6 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const pageContent = document.querySelector('#page_content_id');
     const btnUp = document.querySelector('#btn_up_id');
     const btnLogo = document.querySelector('.btn_logo_container');
+    const nav = document.querySelector('.nav');
+
     //* *******************************************************************//
     //*CLOSE MENUS
     const btnCloseMenuPageContent = document.querySelector('#close_menu_page_content');
@@ -29,7 +31,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnsMenuSocial = document.querySelectorAll('.btn_social');
 
     //!NAV
-    const nav = document.querySelector('.nav');
     //*NAB MENU CONTAINER
     const menuContainerPageContent = document.querySelector('#menu_page_content');
 
@@ -259,7 +260,23 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     createContactFormModal();
     //* *******************************************************************//
+    //*
 
+    let lastScroll = 0;
+    const scrolling = () => {
+        const scrolled = window.scrollY;
+        //todo console.log(scrolled);
+        if (scrolled > lastScroll) {
+            nav.style.transform = `translateY(-100%)`;
+            lastScroll = scrolled;
+        } else if (scrolled < lastScroll) {
+            nav.style.transform = `translateY(0)`;
+            lastScroll = scrolled;
+        }
+    };
+    window.addEventListener(`scroll`, scrolling);
+    //*
+    //* ********************************************************************//
     //! *******************************************************************//
     //!EVENTLISTENERS
 
